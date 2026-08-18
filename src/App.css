@@ -310,12 +310,6 @@
   flex-shrink: 0;
 }
 
-.sheet-swatch-label {
-  font-size: 12px;
-  color: var(--muted);
-  font-weight: 600;
-}
-
 .sheet-swatch-hex {
   font-size: 16px;
   font-weight: 800;

@@ -37,7 +37,6 @@ export default function DetailSheet({ product, onClose }) {
           <div className="sheet-swatch-block">
             <div className="sheet-swatch" style={{ backgroundColor: hex }} />
             <div className="sheet-swatch-info">
-              <p className="sheet-swatch-label">실발색 컬러</p>
               <p className="sheet-swatch-hex">{hex}</p>
             </div>
           </div>
