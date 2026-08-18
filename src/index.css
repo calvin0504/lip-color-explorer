@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg: #fff7f5;
+  --card: #ffffff;
+  --text: #2e2226;
+  --muted: #a08d92;
+  --accent: #e0526e;
+  --accent-soft: #fdeef1;
+  --line: #f3e4e6;
+  --shadow: 0 2px 12px rgba(190, 120, 135, 0.1);
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont,
+    "Apple SD Gothic Neo", "Noto Sans KR", "Segoe UI", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  font-family: inherit;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
