@@ -108,6 +108,9 @@
   box-shadow: var(--shadow);
   cursor: pointer;
   transition: transform 0.15s;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .card:active {
