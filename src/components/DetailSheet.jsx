@@ -22,7 +22,6 @@ export default function DetailSheet({ product, onClose }) {
         aria-label={`${brand} ${name} ${colorName} 상세`}
         onClick={(e) => e.stopPropagation()}
       >
-        <div className="sheet-handle" />
         <img className="sheet-image" src={imageUrl} alt={`${brand} ${name}`} />
         <div className="sheet-body">
           <div className="sheet-top">

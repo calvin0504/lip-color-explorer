@@ -238,14 +238,6 @@
   overflow-y: auto;
 }
 
-.sheet-handle {
-  width: 40px;
-  height: 4px;
-  border-radius: 999px;
-  background: var(--line);
-  margin: 10px auto;
-}
-
 .sheet-image {
   width: 100%;
   aspect-ratio: 16 / 10;
