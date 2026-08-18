@@ -16,8 +16,7 @@ export default function App() {
       const matchQuery =
         q === "" ||
         p.brand.toLowerCase().includes(q) ||
-        p.colorName.toLowerCase().includes(q) ||
-        p.name.toLowerCase().includes(q);
+        p.colorName.toLowerCase().includes(q);
       return matchFinish && matchQuery;
     });
   }, [finish, query]);
