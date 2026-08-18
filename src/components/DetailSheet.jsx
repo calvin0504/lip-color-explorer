@@ -29,7 +29,7 @@ export default function DetailSheet({ product, onClose }) {
             <div>
               <p className="sheet-brand">{brand}</p>
               <h2 className="sheet-name">{name}</h2>
-              <p className="sheet-color-name">{colorName}</p>
+              <p className="sheet-color-name" style={{ color: hex }}>{colorName}</p>
             </div>
             <span className="finish-badge finish-badge-lg">{finish}</span>
           </div>

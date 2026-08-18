@@ -15,7 +15,7 @@ export default function ProductCard({ product, onClick }) {
         </div>
         <p className="card-brand">{brand}</p>
         <p className="card-name">{name}</p>
-        <p className="card-color">{colorName}</p>
+        <p className="card-color" style={{ color: hex }}>{colorName}</p>
         <p className="card-price">{price.toLocaleString()}원</p>
       </div>
     </article>
